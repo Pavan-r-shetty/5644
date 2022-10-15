@@ -146,7 +146,7 @@ if __name__ == "__main__":
     print(df_loss_mat_percent)
     plt.figure(figsize=(10, 7))
     sn.heatmap(df_loss_mat_percent, annot=True)
-    plt.savefig("heat_map_lambda_1.png")
+    plt.savefig("fig21.png")
     plt.show()
     
     
@@ -167,7 +167,7 @@ if __name__ == "__main__":
     print(df_loss_mat_percent)
     plt.figure(figsize=(10, 7))
     sn.heatmap(df_loss_mat_percent, annot=True)
-    plt.savefig("heat_map_lambda_1.png")
+    plt.savefig("fig22.png")
     plt.show()
     
     
@@ -185,5 +185,5 @@ if __name__ == "__main__":
     print(df_loss_mat_percent)
     plt.figure(figsize=(10, 7))
     sn.heatmap(df_loss_mat_percent, annot=True)
-    plt.savefig("heat_map_lambda_1.png")
+    plt.savefig("fig23.png")
     plt.show()
